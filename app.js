@@ -1,6 +1,7 @@
 let form = document.querySelector("form");
 let text = document.getElementById("text");
 let todoCon = document.querySelector(".todo-con");
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   addtodo();
